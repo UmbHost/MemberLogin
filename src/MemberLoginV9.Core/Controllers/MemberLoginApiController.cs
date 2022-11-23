@@ -5,7 +5,7 @@ using Umbraco.Cms.Web.BackOffice.Controllers;
 using Umbraco.Cms.Web.Common.Attributes;
 using Umbraco.Cms.Web.Common.Security;
 
-namespace MemberLoginV9.Core.Controllers
+namespace Our.Umbraco.MemberLogin.Core.Controllers
 {
     /// <summary>
     /// Implement the MemberLoginApiController

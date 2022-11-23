@@ -1,9 +1,9 @@
-﻿using MemberLoginV9.Core.TreeNotificationHandlers;
+﻿using Our.Umbraco.MemberLogin.Core.TreeNotificationHandlers;
 using Umbraco.Cms.Core.Composing;
 using Umbraco.Cms.Core.DependencyInjection;
 using Umbraco.Cms.Core.Notifications;
 
-namespace MemberLoginV9.Core.Composers
+namespace Our.Umbraco.MemberLogin.Core.Composers
 {
     public class MemberLoginComposer : IComposer
     {
