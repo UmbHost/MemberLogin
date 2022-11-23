@@ -1,0 +1,17 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+
+    "AuthorDetails": {
+        "Description": "UmbHost is a provider of Umbraco hosting and development",
+        "Url": "https://umbhost.net",
+        "ImageUrl": "https://umbhost.net/media/3fvalp2g/umbhost-new-logo-eco-colour.svg"
+    },
+    "Category": "Editor Tools",
+    "LicenseTypes": ["Free"],
+    "PackageType": "Package",
+    "Tags": [
+        "Impersonate Member",
+        "Login as Member",
+        "Member Impersonation"
+    ]
+}
