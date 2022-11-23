@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	  <StaticWebAssetBasePath>App_Plugins/MemberLogin</StaticWebAssetBasePath>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\memberlogin.css" />
+    <Content Remove="wwwroot\js\memberlogin.controller.js" />
+    <Content Remove="wwwroot\package.manifest" />
+    <Content Remove="wwwroot\views\memberlogin.html" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.11" />
+    <PackageReference Include="Umbraco.Cms.Core" Version="10.3.2" />
+    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="10.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\memberlogin.css" />
+    <None Include="wwwroot\js\memberlogin.controller.js" />
+    <None Include="wwwroot\package.manifest" />
+    <None Include="wwwroot\views\memberlogin.html" />
+  </ItemGroup>
+
+</Project>
