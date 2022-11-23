@@ -5,6 +5,21 @@
 	  <StaticWebAssetBasePath>App_Plugins/MemberLogin</StaticWebAssetBasePath>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Title>Our.Umbraco.MemberLogin</Title>
+    <Description>Umbraco package which allows you to impersonate as a Member.</Description>
+    <Authors>Mivaweb, AaronSadlerUK</Authors>
+    <PackageProjectUrl>https://github.com/UmbHost/MemberLogin/tree/umb-v10</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/UmbHost/MemberLogin/tree/umb-v10</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>umbraco umbraco-marketplace</PackageTags>
+    <PackageReleaseNotes>Initial V10 Release</PackageReleaseNotes>
+    <PackageIcon>icon.png</PackageIcon>
+    <Copyright>Copyright © 2022 Michaël Vanbrabandt, AaronSadlerUK</Copyright>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	  <AssemblyVersion>2.0.4</AssemblyVersion>
+	  <Version>$(AssemblyVersion)</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,10 +41,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="wwwroot\css\memberlogin.css" />
     <None Include="wwwroot\js\memberlogin.controller.js" />
     <None Include="wwwroot\package.manifest" />
     <None Include="wwwroot\views\memberlogin.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

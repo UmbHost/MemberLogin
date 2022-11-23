@@ -1,18 +1,18 @@
 # MemberLogin
 
-[![Our Umbraco project page](https://img.shields.io/badge/our-umbraco-orange.svg)](https://our.umbraco.org/projects/backoffice-extensions/memberlogin/)
-
 MemberLogin is a Umbraco backoffice extension package which allows you to impersonate as a Member into the front-end website.
-
-## Getting Started
-
-![MemberLogin Umbraco](https://github.com/Mivaweb/MemberLogin/blob/umb-v8/assets/memberlogin-v2.0.0.JPG)
 
 ### Documentation
 
-MemberLogin can be used in Umbraco V7 and V8 versions where can you login as a member from your backoffice into the front-end of your website.
+MemberLogin can be used in Umbraco V10 version where can you login as a member from your backoffice into the front-end of your website.
 
 ### History Version
+
+#### v3.0.0.
+
+Released MemberLogin for Umbraco V10
+
+*This version is only compatible with Umbraco V10!
 
 #### v2.0.0
 
@@ -43,9 +43,10 @@ As you will see, this is only a button for doing the login as a Member.
 ## Contributors
 
 * [Michaël Vanbrabandt](https://github.com/mivaweb)
+* [AaronSadlerUK](https://github.com/AaronSadlerUK)
 
 ## License
 
-Copyright © 2018 Michaël Vanbrabandt
+Copyright © 2022 Michaël Vanbrabandt, AaronSadlerUK
 
 Licensed under the [MIT License](LICENSE.md)
