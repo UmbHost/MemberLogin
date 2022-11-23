@@ -18,7 +18,7 @@
     <Copyright>Copyright © 2022 Michaël Vanbrabandt, AaronSadlerUK</Copyright>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-	  <AssemblyVersion>2.0.4</AssemblyVersion>
+	  <AssemblyVersion>3.0.0</AssemblyVersion>
 	  <Version>$(AssemblyVersion)</Version>
   </PropertyGroup>
 
