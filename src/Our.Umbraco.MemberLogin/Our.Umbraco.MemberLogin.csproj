@@ -13,12 +13,12 @@
     <RepositoryUrl>https://github.com/UmbHost/MemberLogin/tree/umb-v10</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>umbraco umbraco-marketplace</PackageTags>
-    <PackageReleaseNotes>Initial V10 Release</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed namespaces and added manifest filter</PackageReleaseNotes>
     <PackageIcon>icon.png</PackageIcon>
     <Copyright>Copyright © 2022 Michaël Vanbrabandt, AaronSadlerUK</Copyright>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-	  <AssemblyVersion>3.0.0</AssemblyVersion>
+	  <AssemblyVersion>3.0.1</AssemblyVersion>
 	  <Version>$(AssemblyVersion)</Version>
   </PropertyGroup>
 
