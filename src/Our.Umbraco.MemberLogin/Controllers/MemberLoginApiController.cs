@@ -1,11 +1,10 @@
-﻿using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Umbraco.Cms.Core.Security;
 using Umbraco.Cms.Web.BackOffice.Controllers;
 using Umbraco.Cms.Web.Common.Attributes;
 using Umbraco.Cms.Web.Common.Security;
 
-namespace Our.Umbraco.MemberLogin.Core.Controllers
+namespace Our.Umbraco.MemberLogin.Controllers
 {
     /// <summary>
     /// Implement the MemberLoginApiController
